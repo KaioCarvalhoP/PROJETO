@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="src/style/Cadastro_Clientes_Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+    <script src="src\script\Cadastro_Clientes_Script.js"></script>
+</head>
+
+<body>
+
+    <main id="form_container">
+        <div id="form_header">
+            <h1 id="form_title">Cadastro do Cliente</h1>
+            <button class="button-default">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </button>
+        </div>
+
+        <form action="" id="form">
+            <div id="input_container">
+                <div class="input-box">
+                    <label for="nome" class="form-label">Nome completo</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="nome" 
+                        id="nome" 
+                        class="form-control-letras" 
+                        placeholder="Nome completo">
+                        
+
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <div class="input-field">
+                        <input 
+                        type="text"
+                        name="telefone"
+                        id="telefone"
+                        class="form-control"
+                        placeholder="(00) 00000-0000">
+                        
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="email" class="form-label">Email</label>
+                    <div class="input-field">
+                        <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        class="form-control"
+                        placeholder="exemplo@gmail.com">
+                        
+                        
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="cpf" 
+                        id="cpf" 
+                        class="form-control"
+                        placeholder="123-456-789.10">
+                        
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="cnpj" class="form-label">CNPJ</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="cnpj" 
+                        id="cnpj" 
+                        class="form-control"
+                        placeholder="12.345.678/0001-90">
+                        
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="cep" class="form-label">CEP</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="cep" 
+                        id="cep" 
+                        class="form-control"
+                        placeholder="12345-678">
+                        
+                        <i class="fa-solid fa-map-pin"></i>
+                    </div>
+                </div>    
+
+                <div class="input-box">
+                    <label for="rua" class="form-label">Rua</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="rua" 
+                        id="rua" 
+                        class="form-control-letras"
+                        placeholder="Rua exemplo">
+                        
+                        <i class="fa-solid fa-road"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="numero" class="form-label">Número</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="numero" 
+                        id="numero" 
+                        class="form-control"
+                        placeholder="123">
+                        
+                        <i class="fa-solid fa-signs-post"></i>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="bairro" class="form-label">Bairro</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="bairro" 
+                        id="bairro" 
+                        class="form-control-letras"
+                        placeholder="Bairro exemplo">
+                        
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>    
+                </div>    
+
+                <div class="input-box">
+                    <label for="cidade" class="form-label">Cidade</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="cidade" 
+                        id="cidade" 
+                        class="form-control-letras"
+                        placeholder="Cidade exemplo">
+                        
+                        <i class="fa-solid fa-city"></i>
+                    </div>
+                </div>  
+
+                <div class="input-box">
+                    <label for="uf" class="form-label">UF</label>
+                    <div class="input-field">
+                        <input 
+                        type="text" 
+                        name="uf" 
+                        id="uf" 
+                        class="form-control-letras"
+                        placeholder="UF">
+                        
+                        <i class="fa-solid fa-map"></i>
+                    </div>
+                </div> 
+
+                <button type="submit">
+                    <i class="fa-solid fa-check"></i>
+                    Criar conta
+                </button>
+
+            </div>
+        </form>
+    </main>
+
+
+</body> 
+
+</html>
